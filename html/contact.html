@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education School Website</title>
+
+    <!-- =====Custom CSS Link===== -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <!-- =====Font Awesome Links===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- =====Swiper css  Link===== -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    
+    <!-- =====Navbar===== -->
+
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><h3>j<span>C</span>oder</h3></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="menu-button"><i class="fa fa-bars"></i></button>
+            <button class="close-button"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+        </div> 
+    </nav>
+
+    <!-- =====End of Navbar===== -->
+
+
+    <!-- =====Contact Form===== -->
+
+    <section class="contact">
+        <div class="container contact-container">
+            <div class="contact-aside">
+                <div class="aside-img">
+                    <img src="/images/contact.svg" alt="">
+                </div>
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, officiis veritatis sed expedita eaque accusantium!</p>
+                <ul class="contact-details">
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <h5>+12345678910</h5>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-message"></i>
+                        <h5>jcoder2005@gmail.com</h5>
+                    </li>
+                </ul>
+                <ul class="contact-social">
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+
+            <form action="#">
+                <div class="form-name">
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                </div>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="message" rows="7" required></textarea>
+                <button class="btn btn-danger" type="submit">Send Message</button>
+                </form>
+
+        </div>
+    </section>
+
+    <!-- =====End of Contact Form===== -->
+
+
+
+
+
+
+    
+         <!-- =====Footer Section===== -->
+
+         <footer>
+            <div class="container footer-container">
+
+                <div class="footer-1">
+                    <a href="index.html" class="footer-logo">
+                        <h4>
+                            j<span>C</span>oder
+                        </h4>
+                    </a>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo tempore sed voluptate!</p>
+                </div>
+
+                <div class="footer-2">
+                    <h4>Web Links</h4>
+                    <ul class="weblinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-3">
+                    <h4>Privacy</h4>
+                    <ul class="weblinks">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-4">
+                    <h4>Contact US</h4>
+                    <div>
+                        <p>+12345678910</p>
+                        <p>jcoder2005@gmail.com</p>
+                    </div>
+                    <ul class="footer-social">
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <small>copyright &copy; jCoder</small>
+            </div>
+         </footer>
+
+         <!-- =====End of Footer Section===== -->
+
+
+
+
+
+         <!-- =====Custom JS Link===== -->
+         <script src="/js/script.js"></script>
+
+         <!-- =====Swiper JS link===== -->
+         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+         <!-- =====Swiper js===== -->
+
+         <script>
+            var swiper = new Swiper('.mySwiper', {
+            slidesPerView:3,
+            spaceBetween: 0,
+            pagination:{
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                600:{
+                    slidesPerView: 2,
+                    spaceBetween: 5,
+                },
+                1024:{
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                }
+            }
+        })
+
+         </script>
+
+
+</body>
+</html>
